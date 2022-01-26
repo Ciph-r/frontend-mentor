@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ciph-r/frontend-mentor/tree/main/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://ciph-r.github.io/frontend-mentor/qr-code-component-main/index.html)
+- Solution URL: [Github](https://github.com/Ciph-r/frontend-mentor/tree/main/qr-code-component-main)
+- Live Site URL: [Github Pages](https://ciph-r.github.io/frontend-mentor/qr-code-component-main/index.html)
 
 ## My process
 
@@ -32,4 +32,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JordanHunt3r)
+- Frontend Mentor - [@JordanHunt3r](https://www.frontendmentor.io/profile/JordanHunt3r)
