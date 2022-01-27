@@ -64,7 +64,6 @@ body {
   color: var(--White);
   font-weight: 600;
   font-size: 1.5rem;
-  padding: 1rem 0;
 }
 
 .card__text {
