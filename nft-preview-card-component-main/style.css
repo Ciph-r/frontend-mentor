@@ -63,16 +63,19 @@ body {
 .card__title {
   color: var(--White);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .card__text {
   color: var(--Soft_blue);
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .card__stats {
   display: flex;
   justify-content: space-between;
+  font-size: 0.8rem;
   padding-bottom: 1rem;
   border-bottom: 1px groove var(--line);
 }
@@ -99,12 +102,14 @@ body {
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .card__avatar {
   border: 2px solid var(--White);
   border-radius: 50%;
-  width: 2.5rem;
+  width: 2.2rem;
   margin-right: 1rem;
 }
 
