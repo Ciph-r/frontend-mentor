@@ -63,7 +63,8 @@ body {
 .card__title {
   color: var(--White);
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  padding-top: 0.6rem;
 }
 
 .card__text {
@@ -75,8 +76,8 @@ body {
 .card__stats {
   display: flex;
   justify-content: space-between;
-  font-size: 0.8rem;
-  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  padding-bottom: 1.4rem;
   border-bottom: 1px groove var(--line);
 }
 
