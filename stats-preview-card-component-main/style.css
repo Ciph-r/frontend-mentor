@@ -38,16 +38,21 @@ body {
   align-items: center;
 }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 .card {
   background-color: var(--Dark-Desaturated-Blue);
   display: grid;
   grid-template-areas:
     "one"
     "two";
-  width: 90%;
-  max-width: 370px;
+  max-width: 327px;
   border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 2px 2px black;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card__content {
@@ -79,8 +84,10 @@ body {
 }
 
 .card__title {
+  margin-top: 2.67rem;
   color: var(--White);
-  font-size: 1.6rem;
+  font-size: 1.87rem;
+  line-height: 2.13rem;
   font-weight: 700;
   grid-area: two;
 }
@@ -91,12 +98,14 @@ body {
 
 .card__text {
   color: var(--Transparent-White-main);
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  margin-bottom: 0;
 }
 
 .card__stats {
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.8rem;
+  margin-top: 2.67rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +124,9 @@ body {
 
 .card__stats span {
   color: var(--White);
-  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .attribution {
@@ -137,20 +148,31 @@ body {
     grid-template-areas:
       "two one"
       "two one";
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
-    max-width: 1400px;
+    grid-template-columns: 51.3% 1fr;
+    max-width: 1110px;
     border-radius: 10px;
   }
 
   .card__content {
+    margin: 0;
+    padding: 0;
     text-align: left;
     align-self: center;
-    padding-top: 2rem;
+    padding-left: 4.8rem;
   }
 
   .card__title {
-    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    padding-top: 2.8rem;
+    padding-right: 8rem;
+  }
+
+  .card__text {
+    padding-top: 0.67rem;
+    padding-right: 8.27rem;
   }
 
   .hero__image--mobile {
@@ -161,6 +183,8 @@ body {
   .hero__image--desktop {
     display: block;
     border-radius: 0 10px 10px 0;
+    width: fit-content;
+    height: 100%;
   }
 
   .hero__image--overlay {
@@ -168,13 +192,23 @@ body {
   }
 
   .card__stats {
+    margin: 0;
+    padding: 0;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 4rem;
+    padding-top: 4.8rem;
+    padding-right: 9.87rem;
+    padding-left: 4.8rem;
+    padding-bottom: 4.46rem;
+  }
+
+  .card__stats span {
+    padding-bottom: 0.5rem;
   }
 
   .card__stats li {
+    padding: 0;
+    margin: 0;
     text-align: left;
   }
 }
