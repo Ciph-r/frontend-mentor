@@ -67,7 +67,7 @@ header {
 }
 
 .width {
-  width: 30.27rem;
+  width: 32.7rem;
 }
 
 .page {
@@ -98,7 +98,7 @@ header {
 .hero__text-header {
   font-size: 4rem;
   line-height: 4.4rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--black);
   margin-top: 4.8rem;
 }
@@ -108,7 +108,7 @@ header {
 }
 
 .hero__buttons {
-  margin-top: 3.1rem;
+  margin-top: 2.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,6 +202,7 @@ header {
 /* Info Panel */
 .info {
   margin: 0 auto;
+  margin-top: 6.4rem;
 }
 
 .info__tagline {
@@ -210,7 +211,6 @@ header {
   font-weight: 900;
   text-transform: uppercase;
   color: var(--main-blue);
-  margin-top: 6.4rem;
 }
 
 .info__headline {
@@ -220,6 +220,12 @@ header {
   font-weight: 900;
   margin-top: 2.4rem;
   margin-bottom: 3.2rem;
+}
+
+.info p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
 }
 
 /* Page Footer */
@@ -233,6 +239,7 @@ footer {
   display: grid;
   grid-template-areas: "center";
   grid-template-columns: 100%;
+  grid-template-rows: max-content;
   justify-items: center;
 }
 
@@ -243,7 +250,6 @@ footer .spacer {
 
 .footer__content {
   grid-area: center;
-  width: 30.27rem;
 }
 
 .footer__heading {
@@ -268,4 +274,64 @@ footer .button {
 .footer__image {
   grid-area: center;
   z-index: -1;
+}
+
+@media (min-width: 600px) {
+  .width {
+    width: 57.3rem;
+  }
+  .hero__text {
+    width: 45.7rem;
+  }
+  .hero__text-header {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    margin-top: 4.8rem;
+  }
+  .hero__buttons {
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+  .spacer {
+    margin-top: 16.4rem;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    gap: 1.1rem;
+    padding: 0 4rem;
+    margin-top: 6.7rem;
+  }
+  .info {
+    margin-top: 4.8rem;
+  }
+  .info__headline {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    margin-top: 1.6rem;
+  }
+  .footer__heading {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    margin-top: 6.4rem;
+  }
+  footer p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 3.2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo {
+    margin-top: 8rem;
+  }
+  .width {
+    width: 40.57rem;
+  }
 }
