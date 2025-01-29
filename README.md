@@ -19,6 +19,16 @@ Collection of my challenge submissions to frontendmentor.io
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-flexbox-tEh5ygD_b)
 - Live Site URL: [Github Pages](https://ciph-r.github.io/frontend-mentor/nft-preview-card-component-main/index.html)
 
+### LoopStudio
+
+- Solution URL: 
+- Live Site URL: [Github Pages](https://ciph-r.github.io/frontend-mentor/loopstudio/src/index.html)
+
+### Clipboard
+
+- Solution URL:
+- Live Site URL: [Github Pages](https://ciph-r.github.io/frontend-mentor/clipboard/src/index.html)
+
 ## In Progress
 
 ### Huddle Landing Page
